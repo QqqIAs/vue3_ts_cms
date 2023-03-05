@@ -35,7 +35,7 @@ const account = reactive<IAccount>({
   password: localCache.getCache(CACHE_PASSWORD) ?? ''
 })
 
-// 2.定义校验规则
+// 2.定义校验 规则
 const accountRules: FormRules = {
   name: [
     { required: true, message: '必须输入帐号信息~', trigger: 'blur' },
