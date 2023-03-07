@@ -30,6 +30,7 @@ const useLoginStore = defineStore('login', {
       const loginResult = await accountLoginRequest(account)
       const id = loginResult.data.id
       this.token = loginResult.data.token
+      //缓存token一般放在前面！  401
       localCache.setCache(LOGIN_TOKEN, this.token)
 
       // 2.获取登录用户的详细信息(role信息)

@@ -2,8 +2,8 @@
   <div class="main-menu">
     <!-- 1.logo -->
     <div class="logo">
-      <img class="img" src="@/assets/img/logo.svg" alt="" />
-      <h2 v-show="!isFold" class="title">弘源管理系统</h2>
+      <img class="img" src="@/assets/img/logo.jpg" alt="" />
+      <h2 v-show="!isFold" class="title">后台管理系统</h2>
     </div>
 
     <!-- 2.menu -->

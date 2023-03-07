@@ -59,7 +59,7 @@ class HYRequest {
       config = config.interceptors.requestSuccessFn(config)
     }
 
-    // 返回Promise
+    // 返回Promise //利用泛型是因为进行发送请求的时候更加方便
     return new Promise<T>((resolve, reject) => {
       this.instance
         .request<any, T>(config)
