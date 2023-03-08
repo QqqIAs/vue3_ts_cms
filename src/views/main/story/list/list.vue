@@ -6,7 +6,4 @@
 
 <script setup lang="ts" name="list"></script>
 
-<style scoped>
-.list {
-}
-</style>
+<style scoped></style>
